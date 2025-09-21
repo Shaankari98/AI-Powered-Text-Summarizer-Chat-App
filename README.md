@@ -18,7 +18,7 @@ It allows users to chat with an AI assistant, store conversation history, and ge
 🌍 CORS Enabled – Backend API accessible from frontend.
 
 # 🛠️ Tech Stack
-Frontend
+# Frontend
 
 React.js
 
@@ -26,7 +26,7 @@ Axios (API calls)
 
 Context API (Auth & State Management)
 
-Backend
+# Backend
 
 Node.js + Express.js
 
@@ -34,9 +34,9 @@ MongoDB + Mongoose (Database)
 
 JWT Authentication
 
-OpenAI API Integration
+# OpenAI API Integration
 
-Other Tools
+# Other Tools
 
 dotenv (environment variables)
 
@@ -46,7 +46,7 @@ nodemon (dev server)
 
 # ⚙️ Setup Instructions
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/ai-text-summarizer-chat-app.git
+git clone https://github.com/Shaankari98/AI-Powered-Text-Summarizer-Chat-App/tree/main.git
 cd ai-text-summarizer-chat-app
 
 2️⃣ Backend Setup
@@ -86,17 +86,29 @@ GET /api/chat → Fetch user chat history
 # 📂 Project Structure
 AI-Powered-Text-Summarizer-Chat-App/
 │── backend/
+
 │   ├── models/       # MongoDB models
-│   ├── routes/       # API routes
-│   ├── middleware/   # Auth middleware
-│   ├── server.js     # Main backend file
-│   └── .env          # Environment variables
+│
+├── routes/       # API routes
+│ 
+├── middleware/   # Auth middleware
+│
+├── server.js     # Main backend file
+│ 
+└── .env          # Environment variables
 │
 │── frontend/
-│   ├── src/
-│   │   ├── components/   # React components
-│   │   ├── api.js        # Axios instance
-│   │   └── App.js        # Main app
-│   └── package.json
+│
+├── src/
+│
+│   ├── components/   # React components
+│
+│ 
+├── api.js        # Axios instance
+│ 
+│ 
+└── App.js        # Main app
+│ 
+└── package.json
 │
 └── README.md
