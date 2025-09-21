@@ -85,57 +85,30 @@ GET /api/chat → Fetch user chat history
 
 # 📂 Project Structure
 AI-Powered-Text-Summarizer-Chat-App/
-
 │── backend/
-
 │   ├── models/       # MongoDB models
-
 │
-
 ├── routes/       # API routes
-
 │ 
-
 ├── middleware/   # Auth middleware
-
 │
-
 ├── server.js     # Main backend file
-
 │ 
-
 └── .env          # Environment variables
-
 │
-
 │── frontend/
-
 │
-
 ├──src/
-
 │
-
-
 │  
-
 ├── components/   # React components
-
 │
-
 │ 
-
 ├── api.js        # Axios instance
-
 │ 
-
 │ 
-
 └── App.js        # Main app
-
 │ 
-
 └── package.json
 │
-
 └── README.md
