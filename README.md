@@ -1,6 +1,7 @@
 # 📌 AI-Powered Text Summarizer Chat App (MERN + OpenAI)
 
 This project is a full-stack MERN application that integrates AI text summarization using the OpenAI API.
+
 It allows users to chat with an AI assistant, store conversation history, and generate summarized text outputs seamlessly.
 
 # 🚀 Features
@@ -18,6 +19,7 @@ It allows users to chat with an AI assistant, store conversation history, and ge
 🌍 CORS Enabled – Backend API accessible from frontend.
 
 # 🛠️ Tech Stack
+
 # Frontend
 
 React.js
@@ -46,6 +48,7 @@ nodemon (dev server)
 
 # ⚙️ Setup Instructions
 1️⃣ Clone the Repository
+
 git clone https://github.com/Shaankari98/AI-Powered-Text-Summarizer-Chat-App
 cd ai-text-summarizer-chat-app
 
@@ -57,7 +60,9 @@ npm install
 # Create a .env file inside the backend folder:
 
 MONGO_URI=mongodb://localhost:27017/ai_chat
+
 JWT_SECRET=your_secret_key
+
 OPENAI_API_KEY=sk-your_openai_api_key_here
 
 
@@ -66,11 +71,13 @@ OPENAI_API_KEY=sk-your_openai_api_key_here
 node server.js
 
 3️⃣ Frontend Setup
+
 cd frontend
 npm install
 npm start
 
 # 📌 API Endpoints
+
 # Auth Routes
 
 POST /api/auth/register → Register new user
