@@ -54,14 +54,14 @@ cd backend
 npm install
 
 
-Create a .env file inside the backend folder:
+# Create a .env file inside the backend folder:
 
 MONGO_URI=mongodb://localhost:27017/ai_chat
 JWT_SECRET=your_secret_key
 OPENAI_API_KEY=sk-your_openai_api_key_here
 
 
-Run the backend:
+# Run the backend:
 
 node server.js
 
@@ -71,7 +71,7 @@ npm install
 npm start
 
 # 📌 API Endpoints
-Auth Routes
+# Auth Routes
 
 POST /api/auth/register → Register new user
 
@@ -85,30 +85,57 @@ GET /api/chat → Fetch user chat history
 
 # 📂 Project Structure
 AI-Powered-Text-Summarizer-Chat-App/
+
 │── backend/
 
 │   ├── models/       # MongoDB models
+
 │
+
 ├── routes/       # API routes
+
 │ 
+
 ├── middleware/   # Auth middleware
+
 │
+
 ├── server.js     # Main backend file
+
 │ 
+
 └── .env          # Environment variables
+
 │
+
 │── frontend/
+
 │
-├── src/
+
+├──src/
+
 │
-│   ├── components/   # React components
+
+
+│  
+
+├── components/   # React components
+
 │
+
 │ 
+
 ├── api.js        # Axios instance
+
 │ 
+
 │ 
+
 └── App.js        # Main app
+
 │ 
+
 └── package.json
 │
+
 └── README.md
