@@ -46,7 +46,7 @@ nodemon (dev server)
 
 # ⚙️ Setup Instructions
 1️⃣ Clone the Repository
-git clone https://github.com/Shaankari98/AI-Powered-Text-Summarizer-Chat-App/tree/main.git
+git clone https://github.com/Shaankari98/AI-Powered-Text-Summarizer-Chat-App
 cd ai-text-summarizer-chat-app
 
 2️⃣ Backend Setup
